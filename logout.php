@@ -8,7 +8,7 @@ session_start();
 $_SESSION = array();
 
 if (isset($_COOKIE[session_name()])) {
-    setcookie(session_name(), '', time()-86400, 'https://stormy-temple-00803.herokuapp.com/');
+    setcookie(session_name(), '', time()-86400, 'SITE_URL');
 }
 
 session_destroy();

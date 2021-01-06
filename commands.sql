@@ -1,5 +1,5 @@
 create database todo_calendar;
-grant all on todo_calendar.* to dbuser@localhost identified by '********';
+grant all on todo_calendar.* to ユーザー@localhost identified by パスワード;
 use todo_calendar;
 
 create table users (
